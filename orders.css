@@ -1,0 +1,69 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.orders-container {
+    max-width: 800px;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+
+.item-info {
+    margin-bottom: 1em;
+}
+
+.item-info strong {
+    display: inline-block;
+    width: 150px;
+}
+
+.item-name {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+.item-name span {
+    float: right;
+}
+
+.item-actions {
+    text-align: right;
+}
+
+.return-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.return-btn:hover {
+    background-color: #cc0000;
+}
+
+.canceled-order {
+    text-decoration: line-through;
+    color: gray;
+}
